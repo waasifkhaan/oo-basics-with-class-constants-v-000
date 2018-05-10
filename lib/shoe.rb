@@ -7,6 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    binding.pry
     if BRANDS.include?("brand")
     @brand = brand
   else 
