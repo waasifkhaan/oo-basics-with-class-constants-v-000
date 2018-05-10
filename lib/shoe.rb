@@ -11,6 +11,7 @@ class Shoe
     @brand = brand
   else 
     BRANDS << brand 
+    binding.pry 
     
     end
   end
